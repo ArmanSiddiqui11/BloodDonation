@@ -42,7 +42,7 @@ public class splash extends AppCompatActivity {
                 @Override
                 public void onAnimationEnd(Animation animation) {
                     lottieView.setVisibility(View.GONE);
-                    startActivity(new Intent(splash.this, MainActivity.class));
+                    startActivity(new Intent(splash.this, LoginActivity.class));
                     finish();
                 }
 
